@@ -20,6 +20,7 @@
 		99739F931CC179DD004ECCD7 /* TaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99739F921CC179DD004ECCD7 /* TaskController.swift */; };
 		99739F951CC17C99004ECCD7 /* TaskListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99739F941CC17C99004ECCD7 /* TaskListTableViewController.swift */; };
 		99739F971CC17F1D004ECCD7 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99739F961CC17F1D004ECCD7 /* CreateTaskViewController.swift */; };
+		99739F991CC19482004ECCD7 /* Task+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99739F981CC19482004ECCD7 /* Task+CoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		99739F921CC179DD004ECCD7 /* TaskController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskController.swift; sourceTree = "<group>"; };
 		99739F941CC17C99004ECCD7 /* TaskListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListTableViewController.swift; sourceTree = "<group>"; };
 		99739F961CC17F1D004ECCD7 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		99739F981CC19482004ECCD7 /* Task+CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Task+CoreData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				99739F8B1CC17690004ECCD7 /* Task.swift */,
+				99739F981CC19482004ECCD7 /* Task+CoreData.swift */,
 				99739F901CC1792A004ECCD7 /* TaskList.swift */,
 				99739F881CC175AD004ECCD7 /* View */,
 				99739F891CC175BA004ECCD7 /* Controller */,
@@ -309,6 +312,7 @@
 				99739F931CC179DD004ECCD7 /* TaskController.swift in Sources */,
 				99739F911CC1792A004ECCD7 /* TaskList.swift in Sources */,
 				99739F8C1CC17690004ECCD7 /* Task.swift in Sources */,
+				99739F991CC19482004ECCD7 /* Task+CoreData.swift in Sources */,
 				99739F8F1CC17867004ECCD7 /* Model.xcdatamodeld in Sources */,
 				99739F971CC17F1D004ECCD7 /* CreateTaskViewController.swift in Sources */,
 				99739F861CC17585004ECCD7 /* Stack.swift in Sources */,
