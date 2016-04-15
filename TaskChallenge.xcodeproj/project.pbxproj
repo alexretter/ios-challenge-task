@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		99739F581CC17574004ECCD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99739F571CC17574004ECCD7 /* AppDelegate.swift */; };
-		99739F5A1CC17574004ECCD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99739F591CC17574004ECCD7 /* ViewController.swift */; };
 		99739F5D1CC17574004ECCD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99739F5B1CC17574004ECCD7 /* Main.storyboard */; };
 		99739F5F1CC17574004ECCD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99739F5E1CC17574004ECCD7 /* Assets.xcassets */; };
 		99739F621CC17574004ECCD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99739F601CC17574004ECCD7 /* LaunchScreen.storyboard */; };
@@ -43,7 +42,6 @@
 /* Begin PBXFileReference section */
 		99739F541CC17574004ECCD7 /* TaskChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99739F571CC17574004ECCD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		99739F591CC17574004ECCD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		99739F5C1CC17574004ECCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99739F5E1CC17574004ECCD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99739F611CC17574004ECCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -111,14 +109,12 @@
 		99739F561CC17574004ECCD7 /* TaskChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				99739F871CC17596004ECCD7 /* Model */,
-				99739F571CC17574004ECCD7 /* AppDelegate.swift */,
-				99739F591CC17574004ECCD7 /* ViewController.swift */,
 				99739F5B1CC17574004ECCD7 /* Main.storyboard */,
+				99739F571CC17574004ECCD7 /* AppDelegate.swift */,
+				99739F871CC17596004ECCD7 /* Model */,
 				99739F5E1CC17574004ECCD7 /* Assets.xcassets */,
 				99739F601CC17574004ECCD7 /* LaunchScreen.storyboard */,
 				99739F631CC17574004ECCD7 /* Info.plist */,
-				99739F8A1CC175D0004ECCD7 /* CoreData */,
 			);
 			path = TaskChallenge;
 			sourceTree = "<group>";
@@ -165,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				99739F921CC179DD004ECCD7 /* TaskController.swift */,
+				99739F8A1CC175D0004ECCD7 /* CoreData */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -312,7 +309,6 @@
 				99739F931CC179DD004ECCD7 /* TaskController.swift in Sources */,
 				99739F911CC1792A004ECCD7 /* TaskList.swift in Sources */,
 				99739F8C1CC17690004ECCD7 /* Task.swift in Sources */,
-				99739F5A1CC17574004ECCD7 /* ViewController.swift in Sources */,
 				99739F8F1CC17867004ECCD7 /* Model.xcdatamodeld in Sources */,
 				99739F971CC17F1D004ECCD7 /* CreateTaskViewController.swift in Sources */,
 				99739F861CC17585004ECCD7 /* Stack.swift in Sources */,

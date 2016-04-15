@@ -10,9 +10,9 @@ import UIKit
 
 class CreateTaskViewController: UIViewController {
     
-    var tasks: [Task]
+    var tasks: [Task] = []
     
-    let newTask = Task(taskName: taskName, taskDescription: taskDescription, taskCompletion: true)
+    let newTask = Task()
 
     @IBOutlet weak var taskNameTextField: UITextField!
     
@@ -31,7 +31,9 @@ class CreateTaskViewController: UIViewController {
     
     @IBAction func addTaskButtonTapped(sender: AnyObject) {
         
-        tasks.append(newTask)
+        TaskController.sharedController.insertTaskIntoContext
+        
+        self.performSegueWithIdentifier("toListView", sender: nil)
     
     }
     
@@ -39,6 +41,7 @@ class CreateTaskViewController: UIViewController {
         if segue.identifier == "toListView" {
             
             let destinationVC = segue.destinationViewController as? TaskListTableViewController
+            cell.textLabel.text = taskNameTextField.text
             
         }
     }
